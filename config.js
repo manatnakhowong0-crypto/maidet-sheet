@@ -1,20 +1,13 @@
-// ไม้เด็ด: ไฟล์ตั้งค่า กรอกครั้งเดียว แล้วอัปโหลดไว้คู่กับ index.html
-// เวลาอัปเดตแอปครั้งต่อไป อัปโหลดแค่ index.html ไฟล์นี้ไม่ต้องแก้หรืออัปโหลดใหม่
-
+// ไม้เด็ด: ไฟล์ตั้งค่า อัปโหลดไว้คู่กับ index.html ครั้งเดียว
 export default {
-  // จาก Firebase console > Project settings > Your apps > Web app > Config
   firebase: {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
+    apiKey: "AIzaSyCRo_pZq4Cg_xq4YX6jLWDCW5mMy7BDmYs",
+    authDomain: "maidet.firebaseapp.com",
+    projectId: "maidet",
+    storageBucket: "maidet.firebasestorage.app",
+    messagingSenderId: "243444941822",
+    appId: "1:243444941822:web:8dd93234eee38776a776af"
   },
-
-  // จาก Apps Script > Deploy > Web app URL (ลงท้ายด้วย /exec)
   sheetUrl: "https://script.google.com/macros/s/AKfycbzy1vQekAn7qzjMeuFI4q4LBbDmohQYgq3rKyqn4-XLjzDF0pnVWRH5FkxMGcXYWICtTw/exec",
-
-  // รหัสเดียวกับ TOKEN ใน Code.gs
   sheetToken: "01201776"
 };
