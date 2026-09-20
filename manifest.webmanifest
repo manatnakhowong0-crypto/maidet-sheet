@@ -1,0 +1,14 @@
+{
+  "name": "ไม้เด็ด: สต็อก ขาย กำไร",
+  "short_name": "ไม้เด็ด",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3F5F0",
+  "theme_color": "#2E6A45",
+  "lang": "th",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
